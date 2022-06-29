@@ -27,7 +27,7 @@ const options = {
 
 routerApi(app);
 
-app.use(logErrors);
+//app.use(logErrors);
 app.use(boomerrorHandler);
 app.use(errorHandler);
 
